@@ -25,7 +25,8 @@ SECRET_KEY = 'si3l3ved73omadk_f*x4$8f%ty!_+g67j@!aa8#7f0ggkv)4xz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['lotusriver.herokuapp.com']
+# ALLOWED_HOSTS = ['lotusriver.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
