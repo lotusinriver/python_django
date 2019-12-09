@@ -26,6 +26,7 @@ SECRET_KEY = 'si3l3ved73omadk_f*x4$8f%ty!_+g67j@!aa8#7f0ggkv)4xz'
 DEBUG = True
 
 ALLOWED_HOSTS = ['lotusriver.herokuapp.com']
+#ALLOWED_HOSTS = [ ]
  
 
 # Application definition
@@ -121,8 +122,8 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 STATIC_URL = '/static/'
 
-MEDIA_ROOT=os.path.join(BASE_DIR,'media')
-MEDIA_URL='/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+MEDIA_URL = '/media/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
